@@ -8,7 +8,7 @@ import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
-    <main className=" w-[100%] pt-32 px-5 flex flex-col space-y-2 ">
+    <main className=" w-[100%] pt-10 px-5 flex flex-col space-y-2 ">
       <h1 className="w-[100%] text-center text-[40px] font-bold leading-tight tracking-tight text-[#2F2C2F]">
         LINKTREE
       </h1>
