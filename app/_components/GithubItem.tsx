@@ -2,7 +2,10 @@ import React from "react";
 
 function GithubItem() {
   return (
-    <div className="w-[100%] py-3 px-5 text-sm bg-[#0D1117] border-2 border-[#2a2a2a] rounded-xl flex justify-between">
+    <a
+      href="https://github.com/adlihidayat/iga-panggang"
+      className="w-[100%] py-3 px-5 text-sm bg-[#0D1117] border-2 border-[#2a2a2a] rounded-xl flex justify-between"
+    >
       <div>
         <div className="flex items-center space-x-2">
           <div className="w-3 h-3 bg-[#696969]"></div>
@@ -21,7 +24,7 @@ function GithubItem() {
         <div className="w-[3px] h-[3px] bg-[#575757] rounded-full"></div>
         <div className="w-[3px] h-[3px] bg-[#575757] rounded-full"></div>
       </div>
-    </div>
+    </a>
   );
 }
 
